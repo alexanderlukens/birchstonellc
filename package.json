@@ -1,7 +1,7 @@
 {
-  "name": "react-material-landing-page",
+  "name": "Birchstone LLC",
   "version": "1.0.0",
-  "description": "Scaffold your full stack react apps today!",
+  "description": "Birchstone LLC",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -14,9 +14,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iwilsonq/react-material-landing-page/issues"
-  },
   "homepage": "https://github.com/iwilsonq/react-material-landing-page#readme",
   "dependencies": {
     "express": "^4.14.0",

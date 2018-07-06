@@ -1,12 +1,12 @@
 import React from 'react';
-import meadow from '../img/meadow.jpg';
+import stLouis from '../img/saint_louis.jpg';
 
 const Hero = () => {
   return (
     <section
       id="hero"
       className="blue lighten-4"
-      style={{ backgroundImage: 'url(' + meadow + ')'}}
+      style={{ backgroundImage: 'url(' + stLouis + ')'}}
     >
       <div className="container valign-wrapper jc-center">
         <div className="valign center-align white-text">

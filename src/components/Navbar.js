@@ -1,10 +1,12 @@
 import React from 'react';
+import logo from '../img/birchstone_dark.png';
+
 
 const Navbar = () => {
   return (
-    <nav className="teal lighten-1">
+    <nav className="birchstone-color">
       <div className="nav-wrapper">
-        <a href="" className="brand-logo left">Logo</a>
+        <a href="" className="brand-logo left"><img src={logo}/></a>
         <a href="#" data-activates="mobile-demo" className="button-collapse right">
           <i className="material-icons">menu</i>
         </a>
@@ -17,9 +19,6 @@ const Navbar = () => {
           </li>
           <li>
             <a href="">Who we are</a>
-          </li>
-          <li>
-            <a href="">Portfolio</a>
           </li>
           <li>
             <a href="">Contact</a>
