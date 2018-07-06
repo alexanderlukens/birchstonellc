@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iwilsonq/react-material-landing-page.git"
+    "url": "git+https://github.com/alexanderlukens/birchstonellc.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/iwilsonq/react-material-landing-page#readme",
+  "homepage": "https://github.com/alexanderlukens/birchstonellc#readme",
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.4.2",
