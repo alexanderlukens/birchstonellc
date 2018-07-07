@@ -6,6 +6,7 @@ import Features from './Features';
 import About from './About';
 import LatestNews from './LatestNews';
 import SocialBrand from './SocialBrand';
+import ContactUs from './Contact'
 import Footer from './Footer';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Features />
       <About />
       <LatestNews />
+      <ContactUs />
       <SocialBrand />
       <Footer />
     </div>
