@@ -3,7 +3,7 @@ import sprintboard from '../img/sprintboard.png';
 
 const Exemplar = () => {
   return (
-    <section id="examplar ">
+    <section id="examplar">
       <div className="container">
         <div className="row">
           <div className="col l1"></div>
