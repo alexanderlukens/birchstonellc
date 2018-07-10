@@ -1,9 +1,10 @@
 import React from 'react';
-import { Input, Row } from 'react-materialize';
+import { Button, Input, Row } from 'react-materialize';
 
 
 const ContactUs = () => {
   return (
+    <section id="contact" className="grey lighten-2">
       <div className="container">
         <h1 className="center-align">Contact Us</h1>
         <form className="col s12" action="https://formspree.io/alexander.lukens1@gmail.com" method="POST">
@@ -18,13 +19,10 @@ const ContactUs = () => {
                 </Input>
                 <Input type="textarea" label="Message" s={12} name="Message"/>
             </Row>
-            <div className="row">
-                <div className="col s12">
-                    <input type="submit" value="Send"/>
-                </div>
-            </div>
+            <Button m={3} type="submit">Submit</Button>
         </form>
       </div>
+    </section>
   );
 };
 

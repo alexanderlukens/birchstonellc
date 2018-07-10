@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../img/birchstone_dark.png';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 
 const Navbar = () => {
@@ -12,7 +14,7 @@ const Navbar = () => {
         </a>
         <ul id="mobile-demo" className="right hide-on-med-and-down">
           <li>
-            <a href="">Home</a>
+            <Link to="/#contact">Home</Link>
           </li>
           <li>
             <a href="">Services</a>

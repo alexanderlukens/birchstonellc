@@ -5,7 +5,6 @@ import Exemplar from './Exemplar';
 import Features from './Features';
 import About from './About';
 import LatestNews from './LatestNews';
-import SocialBrand from './SocialBrand';
 import ContactUs from './Contact'
 import Footer from './Footer';
 
@@ -25,7 +24,6 @@ class App extends Component {
         <About />
         <LatestNews />
         <ContactUs />
-        <SocialBrand />
         <Footer />
       </div>
     );
