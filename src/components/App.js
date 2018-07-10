@@ -19,7 +19,6 @@ class App extends Component {
       <div id="app">
         <Navbar />
         <Hero />
-        <Exemplar />
         <Features />
         <About />
         <LatestNews />
